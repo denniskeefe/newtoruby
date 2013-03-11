@@ -24,5 +24,5 @@ end
 
 gem 'jquery-rails'
 gem "twitter-bootstrap-rails"
-
+gem 'bootstrap_helper'
 gem "simple_form"
