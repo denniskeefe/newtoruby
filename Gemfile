@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
+gem "twitter-bootstrap-rails"
+gem "therubyracer"
+
 
 group :development do
   gem 'sqlite3'
@@ -9,8 +12,7 @@ end
 
 group :production do
   gem 'pg'
-  gem "twitter-bootstrap-rails"
-  gem "therubyracer"
+  
 end
 
 
