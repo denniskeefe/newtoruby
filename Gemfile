@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 
 gem "twitter-bootstrap-rails"
-gem "therubyracer"
 
 
 group :development do
@@ -26,6 +25,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem "twitter-bootstrap-rails"
+
 gem 'bootstrap_helper'
 gem "simple_form"
