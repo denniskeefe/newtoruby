@@ -1,6 +1,6 @@
 Noobs::Application.configure do
   config.assets.precompile += %w( bootstrap_and_overrides.css.less )
-config.action_mailer.default_url_options = { :host => 'http://www.newtoruby.org' }
+#config.action_mailer.default_url_options = { :host => 'http://www.newtoruby.' }
 
   # Settings specified here will take precedence over those in config/application.rb
 
