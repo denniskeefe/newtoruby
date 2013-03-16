@@ -28,3 +28,5 @@ gem 'jquery-rails'
 
 gem 'bootstrap_helper'
 gem "simple_form"
+gem 'omniauth-twitter'
+gem 'devise'
