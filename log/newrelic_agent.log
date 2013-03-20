@@ -1,0 +1,13 @@
+# Logfile created on 2013-03-18 23:32:27 -0500 by logger.rb/31641
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] ERROR : Unable to read configuration file : can't convert nil into String
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Starting the New Relic Agent.
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Environment: development
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Dispatcher: webrick
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Application: development
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Installing ActiveRecord instrumentation
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Installing Net instrumentation
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Installing Rails 3 Controller instrumentation
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Installing Rails3 Error instrumentation
+[03/18/13 23:32:27 -0500 Denniss-MacBook-Pro.local (1679)] INFO : Finished instrumentation

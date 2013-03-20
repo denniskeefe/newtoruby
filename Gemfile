@@ -11,7 +11,7 @@ end
 
 group :production do
   gem 'pg'
-  
+  gem 'newrelic_rpm'
 end
 
 
@@ -30,4 +30,3 @@ gem 'bootstrap_helper'
 gem "simple_form"
 gem 'omniauth-twitter'
 gem 'devise'
-gem 'newrelic_rpm'
