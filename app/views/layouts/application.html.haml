@@ -64,35 +64,7 @@
       
       %div.row-fluid
 
-        %div.span3
-          %div.well.sidebar-nav
-            %ul.nav.nav-list
-              %li.nav-header Free Interactive Resources
-              %li= link_to "Try Ruby", "http://tryruby.org", :target => '_blank' 
-              %li= link_to "Code Academy", "http://www.codeacademy.com", :target => '_blank'  
-              %li= link_to "Ruby Monk", "http://rubymonk.com/", :target => '_blank'  
-
-              %li.nav-header Paid Resources
-              %li= link_to "Treehouse ($25mo)", "http://www.teamtreehouse.com", :target => '_blank'  
-              %li= link_to "Code School ($25mo)", "http://www.codeschool.com", :target => '_blank'  
-              %li= link_to "Railscasts ($9mo)", "http://www.railscasts.com/", :target => '_blank'  
-
-              %li.nav-header Ruby Podcasts
-              %li= link_to "The Change Log", "http://www.thechangelog.com/", :target => '_blank' 
-              %li= link_to "Ruby5", "http://ruby5.envylabs.com/", :target => '_blank'  
-              %li= link_to "Ruby Rogues", "http://rubyrogues.com/", :target => '_blank'  
-              %li= link_to "The Ruby Show", "http://rubyshow.com/", :target => '_blank'  
-
-              %li.nav-header Ruby Tutorials
-              %li= link_to "Jumpstart Lab", "http://tutorials.jumpstartlab.com/", :target => '_blank' 
-              %li= link_to "Ruby in 20 Minutes", "http://www.ruby-lang.org/en/documentation/quickstart/", :target => '_blank'  
-              %li= link_to "Ruby Learning", "http://rubylearning.com/satishtalim/tutorial.html", :target => '_blank'  
-              %li.nav-header Open Source Projects
-              %li= link_to "Open Source Rails", "http://www.opensourcerails.com", :target => '_blank' 
-
-              %li.nav-header Contact Info
-              %li= link_to "dennis@thecommongeek.com", "mailto:dennis@thecommongeek.com", :target => '_blank'  
-              %li= link_to "Github", "http://www.github.com/denniskeefe", :target => '_blank'  
+        = render 'shared/sidebar'
            
         %div.span9
           = bootstrap_flash 
