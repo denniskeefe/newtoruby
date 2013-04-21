@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 
 gem "twitter-bootstrap-rails"
+gem "haml", "~> 4.0.2"
 
 
 group :development do
