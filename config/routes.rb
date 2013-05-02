@@ -1,4 +1,7 @@
 Noobs::Application.routes.draw do
+  resources :posts
+
+
   #devise_for :users, path_names: {sign_in: "login", sign_out: "logout"}
   #devise_for :users
 
@@ -7,6 +10,8 @@ Noobs::Application.routes.draw do
   root :to => 'home#index'
 
   get "home/index"
+
+  resources :post
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
