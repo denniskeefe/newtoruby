@@ -1,6 +1,7 @@
 !!! 5
 %html{:lang => 'en'}
   %head
+  %analytics_init if Rails.env.production? 
     :javascript
       var _sf_startpt=(new Date()).getTime()
     %meta{:charset =>"utf-8"}
@@ -37,8 +38,8 @@
     -#<!-- For all other devices -->
     -#<!-- Size should be 32 x 32 pixels -->
     = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' 
-    %analytics_init if Rails.env.production? 
     
+
   %body
     %div.navbar.navbar-fluid-top
       %div.navbar-inner
