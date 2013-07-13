@@ -4,7 +4,7 @@ gem 'rails', '3.2.12'
 
 gem "twitter-bootstrap-rails"
 gem "haml", "~> 4.0.2"
-
+gem 'google-analytics-rails'
 
 group :development do
   gem 'sqlite3'
@@ -13,7 +13,7 @@ end
 group :production do
   gem 'pg'
   gem 'newrelic_rpm'
-  gem 'google-analytics-rails'
+  
 end
 
 
