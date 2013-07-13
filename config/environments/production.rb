@@ -3,7 +3,7 @@ Noobs::Application.configure do
 #config.action_mailer.default_url_options = { :host => 'http://www.newtoruby.' }
 
   # Settings specified here will take precedence over those in config/application.rb
-
+GA.tracker = "UA-42413187-1"
   # Code is not reloaded between requests
   config.cache_classes = true
 
