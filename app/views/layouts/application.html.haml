@@ -39,7 +39,7 @@
     -#<!-- Size should be 32 x 32 pixels -->
     = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' 
     
-<%= render :partial => ‘layouts/ga’ if RAILS_ENV == ‘production’ %>
+    %render :partial => ‘layouts/ga’ if RAILS_ENV == ‘production’ 
   %body
     %div.navbar.navbar-fluid-top
       %div.navbar-inner
