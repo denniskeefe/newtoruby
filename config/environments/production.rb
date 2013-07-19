@@ -1,9 +1,10 @@
 Noobs::Application.configure do
   config.assets.precompile += %w( bootstrap_and_overrides.css.less )
 #config.action_mailer.default_url_options = { :host => 'http://www.newtoruby.' }
-
+  config.gem 'rack-google-analytics', :lib => 'rack/google-analytics'
+  config.middleware.use Rack::GoogleAnalytics, :tracker => 'UA-42413187-1'
   # Settings specified here will take precedence over those in config/application.rb
-GA.tracker = "UA-42413187-1"
+  #GA.tracker = "UA-42413187-1"
   # Code is not reloaded between requests
   config.cache_classes = true
 

@@ -13,7 +13,8 @@ end
 group :production do
   gem 'pg'
   gem 'newrelic_rpm'
-  gem 'google-analytics-rails'
+  gem 'rack-google-analytics', :require => 'rack/google-analytics'
+  #gem 'google-analytics-rails'
 end
 
 
