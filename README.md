@@ -4,4 +4,4 @@ This app is hosted at www.newtoruby.org and was created to help those new to the
 
 ### Feedback
 
-Please feel free to offer and feedback, pull requests also welcome.
+Please feel free to offer any feedback, pull requests also welcome.
